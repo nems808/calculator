@@ -1,0 +1,100 @@
+body {
+    width: 100%;
+    background-color: #E0E0E0;
+}
+
+.calculator {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 315px;
+    height: 438px;
+    text-align: center;
+    /*border: 2px solid;*/
+    background-color: black;
+    box-shadow: 0 0 30px black;
+}
+
+#display {
+    width: 313px;
+    height: 130px;
+    text-align: right;
+    font-size: 60px;
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+input {
+    letter-spacing: 0px;
+    /*word-spacing: -10px;*/
+}
+
+.dispWrap {
+    position: relative;
+}
+
+.dispWrap span {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/*.buttons{
+  border: 2px solid red;
+}*/
+
+.buttons>button {
+    margin: 1px -2px 0px 0px;
+    color: white;
+    font-size: 22px;
+}
+
+
+/*div.buttons>button{
+  padding-left: 30px;
+  border: 2px solid red;
+}*/
+
+button.btn {
+    width: 76px;
+    height: 60px;
+    border-radius: 0;
+    /*background-color: rgba(80,80,80,255);*/
+    /*border: 2px solid;*/
+}
+
+.btn {
+    background-color: #424242;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.btn:active {
+    box-shadow: inset 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+}
+
+.btn:focus, .btn:active {
+    outline: none !important;
+    color: white;
+}
+
+.operColor {
+    background-color: #212121;
+}
+
+#big {
+    /*color: red;*/
+    height: 120px;
+    float: right;
+    margin-right: 2px;
+    /*margin-left: 3px;*/
+    /*text-align: justify;*/
+}
+
+#wide {
+    width: 154px;
+}
